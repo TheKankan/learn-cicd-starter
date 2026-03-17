@@ -37,4 +37,4 @@ jobs:
         run: test -z $(go fmt ./...)
 
       - name: Linting
-        run: staticcheck $(go fmt ./...)
+        run: staticcheck ./...
